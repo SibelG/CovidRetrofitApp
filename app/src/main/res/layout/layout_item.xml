@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        app:cardCornerRadius="10dp"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="India"
+                android:textStyle="bold"
+                android:id="@+id/countryName"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:paddingLeft="10dp"
+                android:layout_weight="1">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/countryCase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingRight="40dp"
+                android:text="Case"
+                android:textAlignment="viewEnd"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
